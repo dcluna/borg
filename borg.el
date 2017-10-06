@@ -47,7 +47,7 @@
 (declare-function epkg-read-package       "epkg" (prompt &optional default))
 (declare-function format-spec      "format-spec" (format specification))
 
-(defconst borg-drone-directory
+(defvar borg-drone-directory
   (file-name-directory
    (directory-file-name
     (file-name-directory
